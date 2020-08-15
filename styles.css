@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:Lato;
+    src:url(./assets/fonts/Lato-Regular.ttf)
+}
+
+@font-face{
+    font-family:Alata;
+    src:url(./assets/fonts/Alata-Regular.ttf)
+}
+
+html, body{
+    padding:0;
+    margin:0;
+    width:100vw;
+    height:100vh;
+}
+
+body{
+    font-size:20px;
+    background-color: #333;
+    font-family:monospace;
+}
+
+p, span{
+    font-family:Lato;
+    color:goldenrod;
+}
+
+header{
+    display:flex;
+    flex-wrap:wrap;
+    background:lightcoral;
+    color:#333;
+    align-items:center;
+    justify-content:space-around;
+    padding:1em;
+    font-family:Alata;
+}
+
+header h1{
+    font-size:3em;
+}
+
+header select{
+    padding:1em;
+    font-size:1em;
+    margin: 1em 0.5em;
+}
+
+main .container{
+    margin:0 auto;
+    display:flex;
+    max-width:1000px;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+}
+
+.container .lead{
+    font-size:1.5em;
+}
+
+.container .question{
+    font-size:1.2em;
+    font-weight:600;
+    border-bottom:solid 3px goldenrod;
+}
+
+
+.container .buttons-menu{
+    margin:1em;
+    padding:1em;
+}
+
+.container .buttons-menu .btn{
+    padding:.8em;
+    margin:.7em;
+    width:40%;
+    border-radius:.5em;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    font-size:1em;
+}
+
+.container .buttons-menu .btn:hover{
+    cursor:pointer;
+    border:solid 5px ghostwhite;
+}
+
+.container .buttons-menu .btn-1{
+    background-color:#7EB77F;
+}
+
+.container .buttons-menu .btn-2{
+    background-color:#9CAFB7;
+}
