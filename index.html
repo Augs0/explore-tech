@@ -1,42 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Explore tech roles</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <select name="all-roles" id="all_roles">
-                <option value="See all roles">See all roles</option>
-                <option value="frontend developer">Frontend Develop</option>
-                <option value="backend developer">Backend Developer</option>
-                <option value="ui or ux designer">UI/UX designer</option>
-                <option value="business analyst">Business Intelligence Analyst</option>
-                <option value="devops">DevOps</option>
-                <option value="data scientist">Data Scientist</option>
-                <option value="database administrator">Database Administrator</option>
-                <option value="qa tester">QA Tester</option>
-                <option value="cybersecurity analyst">Cyber-security analyst</option>
-            </select>
-        </nav>
-        <h1>Explore Tech Roles</h1>
+      <nav>
+        <select name="all-roles" id="all_roles">
+          <option value="See all roles">See all roles</option>
+          <option value="frontend developer">Frontend Developer</option>
+          <option value="backend developer">Backend Developer</option>
+          <option value="ui or ux designer">UI designer</option>
+          <option value="ui or ux designer">UX designer</option>
+          <option value="business analyst"
+            >Business Intelligence Analyst</option
+          >
+          <option value="devops">DevOps</option>
+          <option value="data scientist">Data Scientist</option>
+          <option value="database administrator">Database Administrator</option>
+          <option value="qa tester">QA Tester</option>
+          <option value="cybersecurity analyst">Cyber-security analyst</option>
+          <option value="cloud engineer">Cloud Engineer</option>
+        </select>
+      </nav>
+      <h1>Explore Tech Roles</h1>
     </header>
     <main>
-        <div class="container">
-            <p class="lead">Not sure what jobs to look for in tech?</p>
-            <p class="lead">Take our short quiz to see what roles might be interesting for you!</p>
-            <div class="buttons-menu">
-                <p class="question">Question</p>
-                <p>Do you want to work with code regularly?</p>
-                <button class="btn btn-1">Yes</button>
-                <button class="btn btn-2">No</button>
-            </div>
-        </div>
- 
+      <section class="container">
+        <article>
+          <p class="lead">Not sure what jobs to look for in tech?</p>
+          <p class="lead">
+            Tell us what you're interested in, then explore some common job
+            roles~
+          </p>
+        </article>
+        <article class="buttons-menu">
+          <button id="coding-btn" class="btn">I want to code!</button>
+          <button id="creative-btn" class="btn">
+            I want to do something creative!
+          </button>
+          <button id="safety-btn" class="btn">
+            I want to keep things safe!
+          </button>
+          <button id="business-btn" class="btn">
+            I'm interested in business!
+          </button>
+          <button id="data-btn" class="btn">
+            I love data!
+          </button>
+          <button id="something-btn" class="btn">Something else</button>
+        </article>
+        <article class="suggestions"></article>
+      </section>
     </main>
-    
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
