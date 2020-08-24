@@ -78,6 +78,7 @@ main .container {
 
 .container .buttons-menu .btn {
   background: lightcoral;
+  border: solid 5px #333;
   color: #333;
   padding: 0.7rem;
   margin: 0.7em;
@@ -94,7 +95,7 @@ main .container {
 
 .container .buttons-menu .btn:hover {
   cursor: pointer;
-  border: solid 5px ghostwhite;
+  border-color: ghostwhite;
 }
 
 .container .buttons-menu .btn:nth-child(odd) {
