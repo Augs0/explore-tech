@@ -126,6 +126,9 @@ function showCodingJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showCreativeJobs() {
@@ -142,6 +145,9 @@ function showCreativeJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
 
@@ -160,6 +166,9 @@ function showSafetyJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showBusinessJobs() {
@@ -176,6 +185,9 @@ function showBusinessJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
 
@@ -194,6 +206,9 @@ function showDataJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showOtherJobs() {
@@ -210,5 +225,8 @@ function showOtherJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
