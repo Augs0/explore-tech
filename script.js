@@ -7,7 +7,7 @@ codingJobs = [
     {
         "role": "Backend Developer",
         "desc": "Backend development handles parts of the site or application that users do not see. This includes things like writing the code that actually makes different parts of the site work and interact with one another, servers, databases, and security.",
-        "skills": "Some skills you might like to explore for backend development are server-side languages like PHP, Python, Ruby, Ruby On Rails, Java, Javascript, server management like Node.js, database languages like MySQL and MongoDB, and, potentially, hosting server skills like AWS. It depends on what kind of work you're nterested in! It can also be helpful to have a good understanding of frontend skills like HTML and CSS, and of course skills like version control are incredibly useful."
+        "skills": "Some skills you might like to explore for backend development are server-side languages like PHP, Python, Ruby, Ruby On Rails, Java, Javascript, server management like Node.js, database languages like MySQL and MongoDB, and, potentially, hosting server skills like AWS. It depends on what kind of work you're interested in! It can also be helpful to have a good understanding of frontend skills like HTML and CSS, and of course skills like version control are incredibly useful."
     },
     {
         "role": "Fullstack Developer",
@@ -73,7 +73,7 @@ otherJobs = [
     {
         "role": "Cloud Engineer",
         "desc": "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people ina wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
-        "skills": "Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field inclue Java, Python and Go, however, as usual, languages may vary from situation to situation."
+        "skills": "Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation."
     }
 ]
 
@@ -126,6 +126,9 @@ function showCodingJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showCreativeJobs() {
@@ -142,6 +145,9 @@ function showCreativeJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
 
@@ -160,6 +166,9 @@ function showSafetyJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showBusinessJobs() {
@@ -176,6 +185,9 @@ function showBusinessJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
 
@@ -194,6 +206,9 @@ function showDataJobs() {
         </div>
         `
     })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
+    })
 }
 
 function showOtherJobs() {
@@ -210,5 +225,8 @@ function showOtherJobs() {
         <p>${skills}</p>
         </div>
         `
+    })
+    suggestionsBox.scrollIntoView({
+        behavior: "smooth"
     })
 }
