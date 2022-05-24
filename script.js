@@ -23,6 +23,12 @@ codingJobs = [
     skills:
       'iOS developers often use Objective-C or Swift, with Swift being the more modern of the two. Android developers often use Java. That being said, React Native is a growing area of development which involves Javascript/React. Kotlin is also another option. Knowing other programming languages is also beneficial.',
   },
+  {
+    role: 'Games Developer',
+    desc: 'Being a game developer involves designing, creating and maintaining games. This may be on any video gaming platform and involves a wide variety of games - everything from top tier graphic games for home consoles to low-graphic browser games.',
+    skills:
+      "Given the variety of platforms and games, it's hard to list every skill here, but some popular languages are: C++, C#, Java, Javascript, HTML and Python. It may be helpful to become familiar with game engines (software frameworks within game development) too. Unity, for example, has grown in popularity in recent years, but there are many others including Unreal.",
+  },
 ];
 
 creativeJobs = [
@@ -85,12 +91,6 @@ otherJobs = [
     desc: "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people ina wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
     skills:
       'Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation.',
-  },
-  {
-    role: 'Games Developer',
-    desc: 'Being a game developer involves designing, creating and maintaining games. This may be on any video gaming platform and involves a wide variety of games - everything from top tier graphic games for home consoles to low-graphic browser games.',
-    skills:
-      "Given the variety of platforms and games, it's hard to list every skill here, but some popular languages are: C++, C#, Java, Javascript, HTML and Python. It may be helpful to become familiar with game engines (software frameworks within game development) too. Unity, for example, has grown in popularity in recent years, but there are many others including Unreal.",
   },
 ];
 
