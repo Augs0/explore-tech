@@ -138,14 +138,14 @@ function showCodingJobs() {
   codingJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
