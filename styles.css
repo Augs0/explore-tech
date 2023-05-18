@@ -24,12 +24,8 @@ body {
   font-size: 20px;
   background-color: #333;
   overflow-x: hidden;
-}
-
-p,
-span {
   font-family: Lato;
-  color: ghostwhite;
+  color:ghostwhite;
 }
 
 header {
@@ -117,6 +113,10 @@ main .container {
   -o-border-radius: 1em;
   margin: 0.5em;
   padding: 0.5em;
+}
+
+.top-link{
+  color:ghostwhite;
 }
 
 @media (min-width: 768px){

@@ -139,6 +139,7 @@ function showCodingJobs() {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
         <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
@@ -158,14 +159,15 @@ function showCreativeJobs() {
   creativeJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
@@ -178,14 +180,15 @@ function showSafetyJobs() {
   safetyJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
@@ -198,14 +201,15 @@ function showBusinessJobs() {
   businessJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
@@ -218,14 +222,15 @@ function showDataJobs() {
   dataJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
@@ -238,14 +243,15 @@ function showOtherJobs() {
   otherJobs.forEach(function (job) {
     const { role, desc, skills } = job;
     suggestionsBox.innerHTML += `
-        <div class ="card">
+        <article class ="card">
+        <a href="#main" class="top-link">Back to top</a>
         <p class="highlight">Role:</p>
         <p>${role}</p>
         <p class="highlight">Description:</p>
         <p>${desc}</p>
         <p class="highlight">Common skills used:</p>
         <p>${skills}</p>
-        </div>
+        </article>
         `;
   });
   suggestionsBox.scrollIntoView({
