@@ -92,6 +92,12 @@ otherJobs = [
     skills:
       'Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation.',
   },
+  {
+    role: 'Developer advocate',
+    desc: "A relatively new addition to tech roles, but an important one. Most developer advocates come from a coding background and may well continue to code as part of their job. They also, however, do things like write documentation, write blogs to keep everyone in the loop on updates, help create roadmaps for a project, public speaking, and much more. Often this role is described as bridging the gap between engineers or developers and members of teams like product or marketing to ensure everyone is on the same page. It should be noted that this sector is sometimes called Developer Relations or DevRel for short.",
+    skills:
+      'As well as technical skills, you will need to be confident speaking with lots of people and to lots of people. It might be good to start creating content to show you know your stuff when it comes to writing and explaining technical concepts. You will probably want to practice using tools like Markdown for writing READMEs, Notion for product overviews, etc. as these are often employed for documentation.',
+  },
 ];
 
 const questionContent = document.querySelector('.buttons-menu');
