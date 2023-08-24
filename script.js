@@ -71,6 +71,11 @@ dataJobs = [
     skills:
       'Programming skills are quite important in these kinds of jobs, with languages like JAVA, R, SQL, and Python being particularly popular. You may also want to research things like Big Data and Machine Learning. Having a strong understanding of mathematics and algorithms is also beneficial.',
   },
+  {
+    role: 'Data engineer',
+    desc: 'Data engineers spend their time collecting, preparing, validating and cleansing data before it\'s used. They are often preparing the data that data scientists will go on to use so they may work very closely together.',
+    skills: 'SQL, Python, Java, R, and Scala are amongst some of the programming languages it may be worth getting to know. You will likely want to be comfortable with both relational and non-relational databses. As you will be working with a lot of data, understanding Big Data will be helpful, as will a cursory knowledge of Machine Learning to better understand the work of the Data Scientists who will eventually use your data. Cloud computing is also becoming more and more necessary as it grows in popularity and use.',
+  },
 ];
 
 otherJobs = [
