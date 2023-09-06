@@ -102,8 +102,6 @@ jobs = {
   ]
 }
 
-
-// const questionContent = document.querySelectorAll('.buttons-menu');
 const buttons = document.querySelectorAll('.btn');
 const suggestionsBox = document.querySelector('.suggestions');
 
