@@ -1,22 +1,22 @@
 jobs = {
   codingJobs: [
     {
-      role: 'Frontend Developer',
-      desc: 'Frontend development deals with parts of a site or application that the user interacts with. There is often a misconception that frontend developers are effectively designers, but this is not strictly true. Sometimes frontend developers do deal with design, but often they are responsible for implementing designs built by others.',
+      role: 'Front End Developer',
+      desc: 'Front End development deals with parts of a site or application that the user interacts with. There is often a misconception that Front End developers are effectively designers, but this is not strictly true. Sometimes Front End developers do deal with design, but often they are responsible for implementing designs built by others.',
       skills:
-        "Some skills you might like to explore for frontend development are HTML, CSS (potentially preprocessors like SASS), Javascript, frameworks like React, Vue, and Angular, CSS frameworks e.g. Bootstrap, Tailwind, as well as skills helpful across development like version control (e.g. Git) and toolkits like Gulp, Parcel, Webpack, etc. Frontend developers should also aim to be mindful of responsive / mobile-first design as well as accessibility, as these are part of the user's experience in interacting with the site or app.",
+        "Some skills you might like to explore for front end development are HTML, CSS (potentially preprocessors like SASS), Javascript, frameworks like React, Vue, and Angular, CSS frameworks e.g. Bootstrap, Tailwind, as well as skills helpful across development like version control (e.g. Git) and toolkits like Gulp, Parcel, Webpack, etc. Front End developers should also aim to be mindful of responsive / mobile-first design as well as accessibility, as these are part of the user's experience in interacting with the site or app. Learning to test on the front end can also be very helpful. You can look at tools like Cypress, Selenium, Playwright, and React Testing Library.",
     },
     {
-      role: 'Backend Developer',
-      desc: 'Backend development handles parts of the site or application that users do not see. This includes things like writing the code that actually makes different parts of the site work and interact with one another, servers, databases, and security.',
+      role: 'Back End Developer',
+      desc: 'Back End development handles parts of the site or application that users do not see. This includes things like writing the code that actually makes different parts of the site work and interact with one another, servers, databases, and security.',
       skills:
-        "Some skills you might like to explore for backend development are server-side languages like PHP, Python, Ruby, Ruby On Rails, Java, Javascript, server management like Node.js, database languages like MySQL and MongoDB, and, potentially, hosting server skills like AWS. It depends on what kind of work you're interested in! It can also be helpful to have a good understanding of frontend skills like HTML and CSS, and of course skills like version control are incredibly useful.",
+        "Some skills you might like to explore for Back End development are server-side languages like PHP, Python, Ruby, Ruby On Rails, Java, Javascript, server management like Node.js, database languages like MySQL and MongoDB, and, potentially, hosting server skills like AWS. It depends on what kind of work you're interested in! It can also be helpful to have a good understanding of Front End skills like HTML and CSS, and of course skills like version control are incredibly useful.",
     },
     {
       role: 'Fullstack Developer',
-      desc: 'Fullstack development combines both frontend development and backend development. You may use both to a similar degree or potentially use more of one skill-set than the other. This can vary from project to project or sector to sector.',
+      desc: 'Fullstack development combines both Front End development and Back End development. You may use both to a similar degree or potentially use more of one skill-set than the other. This can vary from project to project or sector to sector.',
       skills:
-        'Basically, you are looking to have a mix of skills combining what has been outlined in frontend and backend development. What skills you choose to focus on depends on your interests and goals.',
+        'Basically, you are looking to have a mix of skills combining what has been outlined in Front End and Back End development. What skills you choose to focus on depends on your interests and goals.',
     },
     {
       role: 'Mobile app developer',
@@ -77,9 +77,15 @@ jobs = {
   cloudJobs: [
     {
       role: 'Cloud Engineer',
-      desc: "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people ina wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
+      desc: "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people in a wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
       skills:
         'Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation.',
+    },
+    {
+      role: 'Cloud Architect',
+      desc: "While Cloud Engineers are responsible for building and maintaining Cloud services, Cloud Architects are responsible for actually laying the plans for the infrastructure, deciding which Cloud services will be best, setting those services up, and ensuring they are safe and secure.",
+      skills:
+        'Almost any skills that would benefit you as a Cloud Engineer would benefit you as an Architect as it\'s very important that you have a deep understanding of what you are proposing to a business as well as how to actually get those services  up and running. Further to the platforms mentioned in the Cloud Engineer role, you will also need to have an understanding of things like networks (e.g. what are IP addresses, how does the DNS work?, etc), security, any legal or compliance issues that may need to be considered, container tools like Docker or Kubernetes, plus a variety of other skills. This is definitely a more advanced role than being a Cloud Engineer.',
     },
   ],
   otherJobs: [
