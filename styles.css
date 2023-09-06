@@ -97,6 +97,10 @@ main .container {
   background-color: lightseagreen;
 }
 
+#something-btn {
+  background: radial-gradient(circle, lightcoral 0%, lightseagreen 35%, lightcoral 100%);
+}
+
 .suggestions {
   display: flex;
   flex-direction: column;
@@ -121,7 +125,6 @@ main .container {
 
 @media (min-width: 768px){
   .container .buttons-menu .btn{
-    width:200px;
-    height:200px;
+    width:35%;
   }
 }
