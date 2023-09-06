@@ -74,6 +74,14 @@ jobs = {
       skills: 'SQL, Python, Java, R, and Scala are amongst some of the programming languages it may be worth getting to know. You will likely want to be comfortable with both relational and non-relational databses. As you will be working with a lot of data, understanding Big Data will be helpful, as will a cursory knowledge of Machine Learning to better understand the work of the Data Scientists who will eventually use your data. Cloud computing is also becoming more and more necessary as it grows in popularity and use.',
     },
   ],
+  cloudJobs: [
+    {
+      role: 'Cloud Engineer',
+      desc: "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people ina wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
+      skills:
+        'Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation.',
+    },
+  ],
   otherJobs: [
     {
       role: 'QA tester',
@@ -86,12 +94,6 @@ jobs = {
       desc: 'DevOps is a relatively new and growing field. DevOps engineers may be involved at different parts of an entire process but they basically combine technical skills with project management, often being responsible for handling the preparation and deployment of products.',
       skills:
         'Having coding knowledge can be very helpful, and you will likely need to learn how to use automation tools and system administration. Much like fullstack developers, DevOps engineers must have a very wide and varied skillset and the exact skills needed may change from project to project or job to job.',
-    },
-    {
-      role: 'Cloud Engineer',
-      desc: "You have almost certainly heard of 'the cloud' when talking about data. We often use this kind of storage on our own laptops or mobile phones. Cloud engineer is a term encompassing people ina wide variety of jobs and you may actually hear them called Solutions Architects, Cloud Developers or SysOps Engineers. These other terms point to what certification an engineer has, but they are all Cloud Engineers of some kind and their work involves creating and maintaining cloud-based applications and services.",
-      skills:
-        'Certifications in this field include those from AWS (Amazon Web Services), Azure (Microsoft) and GCP (Google Cloud Platform) and are a good place to start to learn more about what cloud engineering involves. You should be comfortable with APIs and how they work and some popular languages that benefit you in this field include Java, Python and Go, however, as usual, languages may vary from situation to situation.',
     },
     {
       role: 'Developer advocate',
